@@ -3,3 +3,4 @@
 ![solve_architecture](https://github.com/Qehh/Data-Engineering/assets/58768263/d1dea5c0-2439-475b-8f80-2365cd3714d4)
 
 ## 2. Дашборд в Excel
+![superstore_dashboard](https://github.com/Qehh/Data-Engineering/assets/58768263/cdc3ebe0-0a04-4202-bba7-1cceba31303e)
