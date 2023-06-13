@@ -1,0 +1,9 @@
+INSERT INTO calendar_dim
+SELECT 
+order_date,
+EXTRACT(YEAR from order_date),
+EXTRACT(QUARTER from order_date),
+EXTRACT(MONTH from order_date),
+EXTRACT(WEEK from order_date),
+EXTRACT(DAY from order_date)
+FROM orders;
