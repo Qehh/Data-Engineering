@@ -35,3 +35,12 @@ ship_date,
 row_id,
 ship_mode
 FROM orders;
+
+INSERT INTO product_dim
+SELECT 
+product_id,
+product_name,
+category,
+subcategory,
+row_id
+FROM orders;
