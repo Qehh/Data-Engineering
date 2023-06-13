@@ -9,3 +9,7 @@
 ## 3. Модель данных
 ![data_dimention_model](https://github.com/Qehh/Data-Engineering/assets/58768263/0c40f3c6-fc2f-4a27-b6de-081938f35678)
 
+## 4. Создание и заполнение таблиц по модели данных
+ - ![создание таблиц](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/dimention_model_tables_create)
+ - ![заполнение таблиц](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/fill_dimention_tables)
+
