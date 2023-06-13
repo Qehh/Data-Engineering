@@ -48,7 +48,7 @@ CREATE TABLE order_dim
 CREATE TABLE product_dim
 (
  product_id   varchar(50) NOT NULL,
- product_name varchar(50) NOT NULL,
+ product_name varchar(130) NOT NULL,
  category     varchar(50) NOT NULL,
  subcategory  varchar(50) NOT NULL,
  row_id       int NOT NULL
