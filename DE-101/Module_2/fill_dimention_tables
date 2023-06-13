@@ -44,3 +44,13 @@ category,
 subcategory,
 row_id
 FROM orders;
+
+INSERT INTO sales_fact
+SELECT 
+row_id,
+sales,
+profit,
+order_date,
+discount,
+quantity
+FROM orders;
