@@ -42,8 +42,7 @@ CREATE TABLE order_dim
  ship_date  date NOT NULL,
  row_id     int NOT NULL,
  ship_mode  varchar(50) NOT NULL,
- "return"     varchar(50) NOT NULL
-);
+ );
 
 
 CREATE TABLE product_dim
