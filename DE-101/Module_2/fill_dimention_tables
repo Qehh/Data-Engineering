@@ -26,3 +26,12 @@ customer_name,
 segment,
 row_id
 FROM orders;
+
+INSERT INTO order_dim
+SELECT 
+order_id,
+order_date,
+ship_date,
+row_id,
+ship_mode
+FROM orders;
