@@ -46,11 +46,13 @@ row_id
 FROM orders;
 
 INSERT INTO sales_fact
-SELECT 
-row_id,
+SELECT
+o.row_id,
 sales,
 profit,
 order_date,
 discount,
-quantity
-FROM orders;
+quantity,
+geo_id
+FROM orders as o INNER JOIN geographic_dim as g
+ON o.row_id = g.row_id
