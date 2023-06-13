@@ -59,7 +59,7 @@ CREATE TABLE sales_fact
  row_id   int NOT NULL,
  sales    numeric(9,4) NOT NULL,
  profit   numeric(9,4) NOT NULL,
- date     date NOT NULL,
+ date_k     date NOT NULL,
  discount numeric(9,4) NOT NULL,
  quantity int NOT NULL
 	);
