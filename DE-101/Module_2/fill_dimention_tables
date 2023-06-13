@@ -7,3 +7,14 @@ EXTRACT(MONTH from order_date),
 EXTRACT(WEEK from order_date),
 EXTRACT(DAY from order_date)
 FROM orders;
+
+INSERT INTO geographic_dim
+SELECT 
+(100+row_number() over ()),
+country,
+region,
+state,
+city,
+postal_code,
+orders.row_id
+FROM orders;
