@@ -18,3 +18,11 @@ city,
 postal_code,
 orders.row_id
 FROM orders;
+
+INSERT INTO customer_dim
+SELECT 
+customer_id,
+customer_name,
+segment,
+row_id
+FROM orders;
