@@ -3,5 +3,5 @@
  - people.sql
  - returns.sql
 
-## 2. Расчет основныех KPI
+## 2. Расчет основных KPI
  - kpi.sql
