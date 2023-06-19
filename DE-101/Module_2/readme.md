@@ -17,3 +17,5 @@
  - [создание staging слоя](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/stg.orders.sql)
  - [создание DWH слоя](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/from_stg_to_dw.sql)
 
+## 6. Дашборд в Looker Data Studio
+![Screenshot_43](https://github.com/Qehh/Data-Engineering/assets/58768263/811bcac6-4e46-40b7-9a67-1223f6504873)
