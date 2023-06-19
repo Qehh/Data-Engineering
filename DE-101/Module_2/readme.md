@@ -14,6 +14,6 @@
  - [заполнение таблиц](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/fill_dimention_tables)
  
 ## 5. Создание и заполнение таблиц для AWS Lightsail
- - [создание stage слоя](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/stg.orders.sql)
+ - [создание staging слоя](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/stg.orders.sql)
  - [создание DWH слоя](https://github.com/Qehh/Data-Engineering/blob/main/DE-101/Module_2/from_stg_to_dw.sql)
 
